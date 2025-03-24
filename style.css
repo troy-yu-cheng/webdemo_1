@@ -145,7 +145,13 @@ nav a:hover {
 }
 
 /* Typography */
-h1, h2, h3,
+h1, 
+.entry-title {
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+h2, h3,
 .entry-title {
     margin-bottom: 1.5rem;
     color: var(--primary-color);
